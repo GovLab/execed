@@ -33,6 +33,7 @@ body{
       background-color: var(--white);
   }
   
+
 .header-logo{
     display:flex;
     justify-content: center;
@@ -45,7 +46,8 @@ body{
 }
 .hero{
     padding: 2rem;
-    height: 45vh;
+
+    height: 55vh;
     background-color: var(--theme-blue);
     color: #ffffff;
     display: flex;
@@ -98,17 +100,30 @@ body{
     width: 30%;
     height:50%;
 }
+.section-box.nyc img{
+    width: 45%;
+   
+}
+.section-box.nyc .container  p{
+    padding: 1rem 4rem 1.5rem 4rem;
+   
+}
+.section-box.nyc{
+    justify-content: center;
+    align-items: center;
+}
 .section-box p{
     margin: 2rem 0rem 2rem 0rem;
 }
 .right {
     background-color: var(--white);
 }
-.container p{
-    padding: 2rem 0rem 2rem 0rem;
+.text-box .container p{
+    padding: 2rem 0rem 2rem 3rem;
     margin: 0rem 0rem 0 0rem;
 
 }
+
 .right p{
     text-align:right;
     color: var(--theme-blue);
@@ -119,14 +134,16 @@ body{
  font-weight: 200;
  background-color:var(--theme-blue);
  color: var(--white);
- padding:2rem 2rem 2rem 10rem;
+ padding:2rem 0rem 2rem 0rem;
  margin:0;
  font-size: 2rem;
+ text-align: center;
 }
 .text-box p{
     padding: 2rem 2rem 2rem 2rem;
     margin: 0rem 8rem 0 8rem;
     line-height:  1.5;
+
 }
 
 .text-box ol{
@@ -188,6 +205,9 @@ body{
     transition: max-height 0.2s ease-out;
   
   }
+.text-box .panel p{
+    margin: 0 2rem;
+}
 .accordion{
     width: 100%;
     padding:1rem;

@@ -19,9 +19,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GovLab Executive Education Program</title>
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
   <link href="css/mobile.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/zih0xmk.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <header class="header-logo">
   <a href="http://thegovlab.org" target="_blank">
@@ -30,8 +32,17 @@
 </header>
 
 <body>
-
-  <div class="hero">
+  <nav id="navbar">
+    <ul id="mainNav">
+      <li class="active"><a href="#intro">Introduction</a></li>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#syllabus">Syllabus</a></li>
+      <li><a href="#trips">Field Trips</a></li>
+      <li><a href="#faculty">Faculty</a></li>       
+    </ul>
+  </nav>
+  <div  id="intro" class="hero">
 
     <h4>Today’s Public Problems: Tomorrow’s Public Sector Toolkit</h4>
     <h3>The Governance Lab Executive Education Program in</h3>
@@ -39,7 +50,7 @@
 
   </div>
 
-  <div class="intro-text">
+  <div  class="intro-text">
 
     <img src="img/complex.jpg">
 
@@ -62,7 +73,7 @@
     <img src="img/solution.jpg">
   </div>
 
-  <div class="text-box">
+  <div id="overview" class="text-box">
     <h2>What We Will Cover</h2>
     <div class="section-box">
       <img src="img/tools.jpg">
@@ -108,7 +119,7 @@
       </div>
     </div>
   </div>
-  <div class="text-box">
+  <div id="goals" class="text-box">
     <h2>Program learning goals</h2>
     <br>
     <ul>
@@ -124,13 +135,13 @@
         results.</li>
 
     </ul>
-    <p>The program is available with English or Spanish instruction.</p>
+    <p><b>The program is available with English or Spanish instruction.</b></p>
   </div>
 
 
 
 
-  <div class="text-box">
+  <div id="syllabus" class="text-box">
     <h2>One Week Program Outline in New York City
     </h2>
     <div class="sessions">
@@ -298,8 +309,9 @@
       </div>
 
     </div>
-    <div class="text-box" style="margin-top:2rem;">
+    <div class="text-box" id="trips" style="margin-top:2rem;">
       <h2>Learning by Doing</h2>
+
       <p>When learning how to innovate in government, it helps to talk with those who have done it before. Attendees
         enjoy
         confidential small group, off-the-record discussions as well as informal conversations with experienced public
@@ -318,6 +330,9 @@
   </div>
   <div class="text-box">
     <h2>Building Community</h2>
+    <div class="section-box nyc">
+     
+      <div class="container">
     <p>To foster conversation and community building, we do some of our learning in the classroom and some in and around
       the scenes and sites of New York City. Outings might include:</p>
     <ul>
@@ -327,10 +342,11 @@
       <li>Hudson Yards</li>
     </ul>
 
-
-    </p>
+    </div>
+    <img src="img/nyc.jpg">
+    </div>
   </div>
-  <div class="faculty">
+  <div id="faculty" class="faculty">
     <h2>Faculty Leads<br><span id="subtitle">All sessions are taught by NYU leading faculty with both academic and real
         world experience.</span></h2>
 
@@ -439,6 +455,11 @@
       Attribution-ShareAlike 4.0 International License</a>.</p>
   <p id="privacy"><a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p>
 </footer>
+
 <script src="js/accordion.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/highlight.js"></script>
+
 
 </html>
+

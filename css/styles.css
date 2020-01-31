@@ -101,8 +101,30 @@ body{
     height:50%;
 }
 .section-box.nyc img{
+
     width: 45%;
    
+}
+.section-box.coaching img{
+margin-left: 10rem;
+margin-top: 2rem;
+    width: 40%;
+   
+}
+.section-box.coaching{
+
+    justify-content: center;
+    align-items: center;
+}
+.container.coaching ul{
+
+    margin:0rem 8rem 0 2rem;
+
+}
+.section-box.coaching .container.coaching p{
+
+    margin:0rem 8rem 0 0rem;
+
 }
 .section-box.nyc .container  p{
     padding: 1rem 4rem 1.5rem 4rem;

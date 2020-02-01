@@ -108,9 +108,30 @@ body{
     display:block;
 }
 .section-box.nyc img{
-
-    width: 45%;
-   
+    width: 45%; 
+}
+.section-box a{
+    width:50%;
+}
+.section-box img#govlab-chalk {
+    width: 100%; 
+    display:block;
+    -webkit-transition: 1s all ease-in-out;
+    -moz-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out
+}
+.section-box a:hover img#govlab-chalk {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    filter: sepia(100%);
+}
+#goals .section-box{
+    justify-content: center;
+    align-items: center;
 }
 .section-box.coaching img{
 margin-left: 10rem;

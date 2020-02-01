@@ -1,13 +1,4 @@
-:root {
-  --theme-blue: rgba(14,67,101);
-  --theme-blue-10: rgba(14,67,101,0.1);
-  --blue-dark: rgba(0,14,28);
-  --orange: rgba(251,97,56);
-  --orange-dark: rgba(58,27,16);
-  --yellow-fade: rgba(226,208,122);
-  --white: rgba(255,255,255);
-  --white-40: rgba(255,255,255,0.4);
-}
+
 .topnav-m a {
   width:10%;
   display:flex;

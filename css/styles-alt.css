@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --theme-blue: rgba(14,67,101);
     --theme-blue-10: rgba(14,67,101,0.1);
     --theme-blue-90: rgba(14,67,101,0.9);
@@ -8,8 +8,18 @@
     --yellow-fade: rgba(226,208,122);
     --white: rgba(255,255,255);
     --white-40: rgba(255,255,255,0.4);
+  } */
+  :root {
+    --theme-blue: #ee5b43;
+    --theme-blue-10: #ee5a4310;
+    --theme-blue-90: rgba(14, 68, 101, 0.89);
+    --blue-dark: rgba(0,14,28);
+    --orange: rgba(251,97,56);
+    --orange-dark: rgba(58,27,16);
+    --yellow-fade: #FCF6B1;
+    --white: #F6D8AE;
+    --white-40: #F6D8AE;
   }
-
 .material-icons {
     direction: ltr;
     display: inline-block;

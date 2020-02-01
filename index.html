@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/zih0xmk.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header class="header-logo">
   <a href="http://thegovlab.org" target="_blank">
@@ -32,6 +33,11 @@
 </header>
 
 <body>
+  <div class="topnav-m">
+    <a href="javascript:void(0);" class="icon" onclick="nav()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
   <nav id="navbar">
     <ul id="mainNav">
       <li class="active"><a href="#intro">Introduction</a></li>
@@ -54,15 +60,17 @@
 
   <div class="intro-text">
 
-    <img src="img/complex.jpg">
-
+    <img src="img/complex-image.jpg">
+<div class="intro-text-box">
     <p>For democracy to thrive, democratic governance has to work. Yet we are confronting an exploding number of complex
       societal challenges from climate change to inequality and our public capability to tackle these problems,
       individually and collectively, is eroding. By some measures, the situation is quite dire as evidenced by the
       rapidly declining trust in our public institutions and their capacity to create public value.
     </p>
   </div>
+  </div>
   <div class="intro-text right">
+    <div class="intro-text-box">
     <p> This program offers a systematic method for using <b>data</b>, <b>public engagement</b>, <b>collaboration</b>,
       <b>innovation</b> and <b>new
         technology</b> to solve problems more effectively and legitimately.<br>
@@ -72,13 +80,14 @@
       By working differently – using <b>agile methods, data analytics, collective intelligence and behavioral
         insights</b> – we
       can solve real world problems better and faster.</p>
-    <img src="img/solution.jpg">
+      </div>
+    <img src="img/solution-image.jpg">
   </div>
 
   <div id="overview" class="text-box">
     <h2>What We Will Cover</h2>
     <div class="section-box">
-      <img src="img/tools.jpg">
+      <img id="tool" src="img/tools-image.png">
       <div class="container">
         <p>In this accelerated learning program you will learn:</p>
         <ol>
@@ -147,7 +156,7 @@
     <h2>One Week Program Outline in New York City
     </h2>
     <div class="sessions">
-      <button class="accordion"><span id="bold">Session 1</span>&nbsp– Digital Technologies and Digital Government<i
+      <button class="accordion"><span id="bold">Session 1</span>&nbsp Digital Technologies and Digital Government<i
           class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -163,7 +172,7 @@
           and the ethical issues that may arise.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 2</span>&nbsp- Defining a Public Problem<i
+      <button class="accordion"><span id="bold">Session 2</span>&nbsp Defining a Public Problem<i
           class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -180,7 +189,8 @@
           particular
           area inside and outside the organization.</p>
       </div>
-      <button class="accordion"><span id="bold">Session 3</span>&nbsp- Human Centered Design Strategies<i
+      <button class="accordion">
+        <span id="bold">Session 3</span>&nbsp Human Centered Design Strategies<i
           class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -199,7 +209,7 @@
           mapping.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 4</span>&nbsp- Understanding the Problem with Data: Data
+      <button class="accordion"><span id="bold">Session 4</span>&nbsp Understanding the Problem with Data: Data
         Analytical Thinking<i class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -221,7 +231,7 @@
           collaboratives.
         </p>
       </div>
-      <button class="accordion"><span id="bold">Session 5</span>&nbsp- Open Innovation: Tapping collective intelligence
+      <button class="accordion"><span id="bold">Session 5</span>&nbsp Open Innovation: Tapping collective intelligence
         to solve problems<i class="material-icons down"></i></button>
 
       <div class="panel">
@@ -240,7 +250,7 @@
           learn key techniques including crowdsourcing, crowdlaw and social auditing.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 6</span>&nbsp- Fast Field Scanning<i
+      <button class="accordion"><span id="bold">Session 6</span>&nbsp Fast Field Scanning<i
           class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -261,7 +271,7 @@
           both on academic research and on social innovation.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 7</span>&nbsp- Behavioral Insights and Experiments to Test What
+      <button class="accordion"><span id="bold">Session 7</span>&nbsp Behavioral Insights and Experiments to Test What
         Works<i class="material-icons down"></i></button>
       <div class="panel">
 
@@ -277,7 +287,7 @@
           the learnings.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 8</span>&nbsp- Powerful Partnerships to Scale<i
+      <button class="accordion"><span id="bold">Session 8</span>&nbsp Powerful Partnerships to Scale<i
           class="material-icons down"></i></button>
       <div class="panel">
 
@@ -301,7 +311,7 @@
           in 2017.</p>
       </div>
 
-      <button class="accordion"><span id="bold">Session 9</span>&nbsp- Enhancing Your Problem-Solving Readiness<i
+      <button class="accordion"><span id="bold">Session 9</span>&nbsp Enhancing Your Problem-Solving Readiness<i
           class="material-icons down"></i></button>
       <div class="panel">
         <p>
@@ -346,7 +356,7 @@
         </ul>
 
       </div>
-      <img src="img/nyc.jpg">
+      <img src="img/nyc-image.jpg">
     </div>
   </div>
 
@@ -430,7 +440,7 @@
     <div class="faculty-bio">
       <div class="image">
         <div class="square">
-          <img src="img/alsina.jpg">
+          <img src="img/victoria.jpg">
         </div>
         <h2>Victoria Alsina</h2>
       </div>
@@ -473,12 +483,22 @@
   <img src="img/cc-logo.png">
   <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
       Attribution-ShareAlike 4.0 International License</a>.</p>
-  <p id="privacy"><a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p>
+  
 </footer>
 
 <script src="js/accordion.js"></script>
 <script src="js/navbar.js"></script>
 <script src="js/highlight.js"></script>
 
+<script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function nav() {
+      var x = document.getElementById("navbar");
+      if (x.id === "navbar") {
+          x.className += " responsive";
+      } else {
+          x.id = "navbar";
+      }
+  }
+</script>
 
 </html>

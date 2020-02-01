@@ -1,6 +1,7 @@
 :root {
     --theme-blue: rgba(14,67,101);
     --theme-blue-10: rgba(14,67,101,0.1);
+    --theme-blue-90: rgba(14,67,101,0.9);
     --blue-dark: rgba(0,14,28);
     --orange: rgba(251,97,56);
     --orange-dark: rgba(58,27,16);
@@ -24,7 +25,6 @@
     -webkit-font-smoothing: antialiased;
     margin-left: auto;
 }
-
 
 
 body{
@@ -81,14 +81,19 @@ body{
 .intro-text img{
     width: 50%;
     height:50%;
+    display:block;
 }
-.intro-text p{
+.intro-text-box{
     width: 50%;
+    margin: 2rem 6rem 2rem 6rem;
+}
+
+.intro-text p{
+
     color: var(--orange-dark);
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 2;
-    margin: 2rem 6rem 2rem 6rem;
     text-align: left;
 }
 .section-box{
@@ -99,6 +104,7 @@ body{
 .section-box img{
     width: 30%;
     height:50%;
+    display:block;
 }
 .section-box.nyc img{
 
@@ -149,7 +155,6 @@ margin-top: 2rem;
 .right p{
     text-align:right;
     color: var(--theme-blue);
-    margin-left: 4rem;
 }
 .text-box h2{
  text-transform: uppercase;

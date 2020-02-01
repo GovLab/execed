@@ -160,7 +160,7 @@
         flex-direction: column;
         background-color: var(--theme-blue-10);
         padding: 1rem 2rem 0 2rem;
-        margin: 2rem 2rem 0 2rem;
+        margin: 2rem 0rem 0 0rem;
         
     }
     .faculty h2{

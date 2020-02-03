@@ -152,7 +152,11 @@
         align-items: center;
         justify-content:center;
     }
+    .accordion #bold{
+        padding-bottom:0.5rem;
+    }
     .material-icons{
+        padding-top:0.5rem;
         margin-left: 0;
     }
     .faculty-bio{
@@ -343,7 +347,11 @@
         align-items: center;
         justify-content:center;
     }
+    .accordion #bold{
+        padding-bottom:0.5rem;
+    }
     .material-icons{
+        padding-top:0.5rem;
         margin-left: 0;
     }
           .faculty-bio{
@@ -559,7 +567,11 @@
         align-items: center;
         justify-content:center;
     }
+    .accordion #bold{
+        padding-bottom:0.5rem;
+    }
     .material-icons{
+        padding-top:0.5rem;
         margin-left: 0;
     }
           .faculty-bio{

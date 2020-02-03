@@ -1,11 +1,11 @@
 :root {
-    --theme-blue: #523080;
-    --theme-blue-10: rgba(255, 199, 87, 0.164);
+    --theme-blue: rgba(14,67,101);
+    --theme-blue-10: rgba(14,67,101,0.1);
     --theme-blue-90: rgba(14,67,101,0.9);
     --blue-dark: rgba(0,14,28);
     --orange: rgba(251,97,56);
     --orange-dark: rgba(58,27,16);
-    --yellow-fade: #FFC857;
+    --yellow-fade: rgba(226,208,122);
     --white: rgba(255,255,255);
     --white-40: rgba(255,255,255,0.4);
   }
@@ -105,10 +105,6 @@ body{
     flex-direction: row;
     width: 100%;
 }
-.section-box img#govlab-chalk {
-    width: 100%; 
-    display:block;
-}
 .section-box img{
     width: 30%;
     height:50%;
@@ -120,6 +116,22 @@ body{
 .section-box a{
     width:50%;
 }
+.section-box img#govlab-chalk {
+    width: 100%; 
+    display:block;
+    -webkit-transition: 1s all ease-in-out;
+    -moz-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out
+}
+.section-box a:hover img#govlab-chalk {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    filter: sepia(100%);
+}
 #goals .section-box{
     justify-content: center;
     align-items: center;
@@ -130,13 +142,6 @@ margin-top: 2rem;
     width: 40%;
    
 }
-.section-box.coaching.optional img{
-    margin-left: 0rem;
-    margin-top: 0rem;
-    padding: 0rem 0rem 0rem 0rem;
-    object-fit: contain; 
-       
-    }
 .section-box.coaching{
 
     justify-content: center;
@@ -147,25 +152,10 @@ margin-top: 2rem;
     margin:0rem 8rem 0 2rem;
 
 }
-.container.coaching.optional ul{
-    text-align:left;
-    margin:0rem 0rem 0 4rem;
-
-}
 .section-box.coaching .container.coaching p{
 
     margin:0rem 8rem 0 0rem;
 
-}
-.section-box.coaching.optional .container.coaching p{
-
-    margin:0rem 0rem 0 0rem;
-    text-align:center;
-
-}
-.text-box .container.optional p {
-    margin:0 0 1rem 0;
-    padding:0 0 1rem 0 0;
 }
 .section-box.nyc .container  p{
     padding: 1rem 4rem 1.5rem 4rem;
@@ -174,7 +164,6 @@ margin-top: 2rem;
 .section-box.nyc{
     justify-content: center;
     align-items: center;
-    margin-bottom:2rem;
 }
 .section-box p{
     margin: 2rem 0rem 2rem 0rem;
@@ -284,28 +273,6 @@ margin-top: 2rem;
     font-size: 1rem;
     margin: 1rem 0 0 0;
 }
-.optional .accordion ul{
-    margin:0;
-    padding:0;
-}
-#optional{
-    text-align: center;
-}
-#optional img{
-    height:100%;
-    width:100%;
-}
-.optional-img{
-width:50%;
-}
-#optional .accordion{
-    
-    margin: 1rem auto 1rem auto;
-    width: 80%;
-}
-.container.coaching.optional{
-    width:50%;
-}
 .accordion .material-icons:before {
     font-weight: 200;
     content: 'keyboard_arrow_down';
@@ -346,7 +313,7 @@ color: var(--white-40);
 }
 .faculty-bio h2{
     background-color: rgba(0,0,0,0);
-    color:  var(--orange-dark);
+    color: #000000;
     padding:0;
     margin-top: 30px;
 }
@@ -360,9 +327,7 @@ color: var(--white-40);
 }
 .bio-text{
     width:70%;
-    color: var(--orange-dark);
 }
-
 .faculty-bio .image .square{
     display: inline-block;
     position: relative;
@@ -370,7 +335,7 @@ color: var(--white-40);
     height: 180px;
     overflow: hidden;
     border-radius: 50%;
-    border: 4px solid var(--orange-dark);
+    border: 4px solid var(--theme-blue);
 }
 footer{
     display:flex;

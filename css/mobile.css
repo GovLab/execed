@@ -433,12 +433,12 @@
 }
 
 @media screen and (min-width: 831px) and (max-width: 1350px){
-    #navbar
+    /* #navbar
     {
       height: 400px;
       display: none;
-    }
-    #optional .accordion{
+    } */
+    /* #optional .accordion{
         margin: 1rem auto 1rem auto;
         width: 90%;
     }
@@ -458,8 +458,8 @@
     .text-box .container.optional p {
         margin-left:0;
         padding-left:0;
-    }
-    .topnav-m a.icon {
+    } */
+    /* .topnav-m a.icon {
       float: right;
       display: flex;
       width:100%;
@@ -499,11 +499,11 @@
       display:flex;
       padding: 1em 1em 1em 1em;
     }
-  
+   */
     .section-box.coaching img{
         margin-left: 0rem;
         margin-top: 0rem;
-            width: 100%;
+            width: 50%;
            
         }
         .section-box.coaching{
@@ -521,10 +521,10 @@
             margin:0;
         
         }
-        .section-box{
+        /* .section-box{
             display:flex;
             flex-direction: column-reverse;
-        }
+        } */
         .intro-text{
             background-color: var(--yellow-fade); 
             display:flex;
@@ -589,7 +589,7 @@
         width: 100%;
     }
     .section-box.nyc img{
-        width: 100%;
+        width: 50%;
     }
     .section-box.coaching img{
        margin-top:2rem;

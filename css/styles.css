@@ -169,12 +169,12 @@ margin-top: 2rem;
 }
 .section-box.nyc .container  p{
     padding: 1rem 4rem 1.5rem 4rem;
+    margin-bottom:2rem;
    
 }
 .section-box.nyc{
     justify-content: center;
     align-items: center;
-    margin-bottom:2rem;
 }
 .section-box p{
     margin: 2rem 0rem 2rem 0rem;

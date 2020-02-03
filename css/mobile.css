@@ -6,6 +6,27 @@
       height: 400px;
       display: none;
     }
+    #optional .accordion{
+        margin: 1rem auto 1rem auto;
+        width: 90%;
+    }
+    .container.coaching.optional{
+        width:100%;
+    }
+    .section-box.optional{
+        flex-direction: column;
+    }
+    #optional img{
+        margin-top: 0rem;
+        width:100%;
+    }
+    .optional-img{
+        width:100%;
+    }
+    .text-box .container.optional p {
+        margin-left:0;
+        padding-left:0;
+    }
     .topnav-m a.icon {
       float: right;
       display: flex;
@@ -123,21 +144,21 @@
     }
     
     .text-box h2{
-     padding:2rem 2rem 2rem 2rem;
+     padding:2rem 1rem 2rem 1rem;
      text-align:center;
     
     }
     .text-box p{
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem 2rem 1rem;
         margin: 0rem 1rem 0 1rem;
     }
     .text-box ol{
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
         margin: 0rem 1rem 0 2rem;
     
     }
     .text-box ul{
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
         margin: 0rem 1rem 0 2rem; 
     }
     
@@ -163,12 +184,12 @@
         display:flex;
         flex-direction: column;
         background-color: var(--theme-blue-10);
-        padding: 1rem 2rem 0 2rem;
+        padding: 1rem 1rem 0 1rem;
         margin: 2rem 0rem 0 0rem;
         
     }
     .faculty h2{
-     padding:2rem 2rem 2rem 2rem;
+     padding:2rem 1rem 2rem 1rem;
      text-align:center;
     }
     .faculty p{
@@ -201,6 +222,27 @@
       height: 400px;
       display: none;
     }
+    #optional .accordion{
+        margin: 1rem auto 1rem auto;
+        width: 90%;
+    }
+    .container.coaching.optional{
+        width:100%;
+    }
+    .section-box.optional{
+        flex-direction: column;
+    }
+    #optional img{
+        margin-top: 0rem;
+        width:100%;
+    }
+    .optional-img{
+        width:100%;
+    }
+    .text-box .container.optional p {
+        margin-left:0;
+        padding-left:0;
+    }
     .topnav-m a.icon {
       float: right;
       display: flex;
@@ -318,16 +360,16 @@
     }
     
     .text-box h2{
-     padding:2rem 2rem 2rem 2rem;
+     padding:2rem 1rem 2rem 1rem;
      text-align:center;
     
     }
     .text-box p{
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem 2rem 1rem;
         margin: 0rem 1rem 0 1rem;
     }
     .text-box ol{
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
         margin: 0rem 1rem 0 2rem;
     
     }
@@ -359,11 +401,11 @@
               flex-direction: column;
               background-color: var(--theme-blue-10);
               padding: 1rem 2rem 0 2rem;
-              margin: 2rem 2rem 0 2rem;
+              margin: 2rem 1rem 0 1rem;
               
           }
           .faculty h2{
-           padding:2rem 2rem 2rem 2rem;
+           padding:2rem 1rem 2rem 1rem;
            text-align:center;
           }
           .faculty p{
@@ -395,6 +437,27 @@
     {
       height: 400px;
       display: none;
+    }
+    #optional .accordion{
+        margin: 1rem auto 1rem auto;
+        width: 90%;
+    }
+    .container.coaching.optional{
+        width:100%;
+    }
+    .section-box.optional{
+        flex-direction: column;
+    }
+    #optional img{
+        margin-top: 0rem;
+        width:100%;
+    }
+    .optional-img{
+        width:100%;
+    }
+    .text-box .container.optional p {
+        margin-left:0;
+        padding-left:0;
     }
     .topnav-m a.icon {
       float: right;
@@ -483,7 +546,7 @@
         }
         .intro-text-box{
             width: 50%;
-            margin: 2rem 2rem 2rem 2rem;
+            margin: 2rem 1rem 2rem 1rem;
         }
         
         .intro-text p{
@@ -538,16 +601,16 @@
     }
     
     .text-box h2{
-     padding:2rem 2rem 2rem 2rem;
+     padding:2rem 1rem 2rem 1rem;
      text-align:center;
     
     }
     .text-box p{
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem 2rem 1rem;
         margin: 0rem 1rem 0 1rem;
     }
     .text-box ol{
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
         margin: 0rem 1rem 0 2rem;
     
     }
@@ -578,12 +641,12 @@
               display:flex;
               flex-direction: column;
               background-color: var(--theme-blue-10);
-              padding: 1rem 2rem 0 2rem;
-              margin: 2rem 2rem 0 2rem;
+              padding: 1rem 1rem 0 1rem;
+              margin: 2rem 1rem 0 1rem;
               
           }
           .faculty h2{
-           padding:2rem 2rem 2rem 2rem;
+           padding:2rem 1rem 2rem 1rem;
            text-align:center;
           }
           .faculty p{

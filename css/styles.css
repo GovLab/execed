@@ -142,6 +142,13 @@ margin-top: 2rem;
     width: 40%;
    
 }
+.section-box.coaching.optional img{
+    margin-left: 0rem;
+    margin-top: 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    object-fit: contain; 
+       
+    }
 .section-box.coaching{
 
     justify-content: center;
@@ -152,10 +159,25 @@ margin-top: 2rem;
     margin:0rem 8rem 0 2rem;
 
 }
+.container.coaching.optional ul{
+
+    margin:0rem 0rem 0 12rem;
+
+}
 .section-box.coaching .container.coaching p{
 
     margin:0rem 8rem 0 0rem;
 
+}
+.section-box.coaching.optional .container.coaching p{
+
+    margin:0rem 0rem 0 0rem;
+    text-align:center;
+
+}
+.text-box .container.optional p {
+    margin:0 0 1rem 0;
+    padding:0 0 1rem 0 0;
 }
 .section-box.nyc .container  p{
     padding: 1rem 4rem 1.5rem 4rem;
@@ -272,6 +294,24 @@ margin-top: 2rem;
     border:none;
     font-size: 1rem;
     margin: 1rem 0 0 0;
+}
+#optional{
+    text-align: center;
+}
+#optional img{
+    height:100%;
+    width:100%;
+}
+.optional-img{
+width:50%;
+}
+#optional .accordion{
+    
+    margin: 1rem auto 1rem auto;
+    width: 80%;
+}
+.container.coaching.optional{
+    width:50%;
 }
 .accordion .material-icons:before {
     font-weight: 200;

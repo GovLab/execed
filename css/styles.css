@@ -372,6 +372,16 @@ color: var(--white-40);
     border-radius: 50%;
     border: 4px solid var(--orange-dark);
 }
+
+a.translate-es::before{
+    content: "Espanōl";
+}
+a.translate-en::before{
+    content: "English";
+}
+.translate-es,.translate-en:hover{
+    cursor: pointer;
+}
 footer{
     display:flex;
     align-items: center;

@@ -277,11 +277,17 @@ a:hover {
 	.no-js .container {
 		padding: 0;
 	}
+	.scroller img{
+		height:250px;
+	}
 }
 
 @media screen and (max-width: 400px){
 	.menu-panel,
 	.content {
 		font-size: 75%;
+	}
+	.scroller img{
+		height:250px;
 	}
 }

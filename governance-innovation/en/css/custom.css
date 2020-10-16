@@ -14,7 +14,7 @@ html { height: 100%; }
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	background: #fff;
+
 	font-weight: 400;
 	font-size: 100%;
 	color: #333;
@@ -53,6 +53,15 @@ a:hover {
 	
 }
 
+.container .logo{
+	width:100%;
+	display:flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+.container .logo img{
+	height: 30px;
+}
 .slideRight {
 	left: 400px;
 }
@@ -67,7 +76,7 @@ a:hover {
 	height: 100%;
 	position: fixed;
 	z-index: 1000;
-	top: 0;
+	top: -2rem;
 	left: 0;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
@@ -150,7 +159,24 @@ a:hover {
 	font-weight: bold;
 	cursor: pointer;
 }
-
+.lang-button {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	right: 20px;
+	background: #523080;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	speak: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.lang-button a{
+	color: #fff;
+}
 .bb-custom-wrapper nav span{
 	position: absolute;
 	width: 60px;
@@ -180,7 +206,7 @@ a:hover {
 .menu-button {
 	z-index: 1000;
 	left: 40px;
-	top: 40px;
+	top: 0px;
 	text-indent: -9000px;
 }
 
@@ -216,6 +242,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 .scroller img{
 	height:400px;

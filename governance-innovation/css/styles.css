@@ -161,7 +161,7 @@ body{
   
   .top_logo {
   
-  width:60%;
+  width:0%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -341,6 +341,7 @@ body{
     font-weight: 600;
     color: var(--purple);
 }
+
 .section-box{
     display:flex;
     flex-direction: row;

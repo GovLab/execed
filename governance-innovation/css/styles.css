@@ -746,26 +746,7 @@ color: white;
     justify-content: flex-end;
     align-items: center;
 }
-.section-image.idea{
-    background-image: url(../img/idea.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--purple);
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.section-image.skills{
-    background-image: url(../img/skills.jpg);
-    width:40%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 .training-section{
     padding: 1rem 2rem;
     background-color: white;

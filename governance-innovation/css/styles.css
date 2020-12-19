@@ -396,6 +396,14 @@ body{
   color: var(--purple);
 }
 @media screen and (min-width: 320px) and (max-width: 578px){
+  .hero-text h1{
+    padding: 0 1rem;
+
+}
+.hero-text h4{
+  padding: 0 1rem;
+
+}
   .component-box{
     flex-direction: column;
   }
@@ -579,10 +587,17 @@ margin:0;
     padding: 2rem 0;
     margin: 1rem 0;
   }
+  .eval-text .component-part{
+    width: 100%;
+    margin: 2rem 4rem;
+   }
   .character-ie .component-part{
     width: 80%;
     height: 100%;
     text-align: center;
+  }
+  .eval-title{
+height: 15vh;
   }
   .eval-text{
     display: flex;
@@ -618,8 +633,8 @@ margin:0;
     height: 150px;
   }
   .eval-text .component-part{
-
-    margin: 2rem 0;
+    padding:0;
+    margin: 0;
    }
   .character-3-title{
     margin-top:1rem;
@@ -706,74 +721,7 @@ color: white;
 .section-image.course{
     background-image: url(../img/course.jpg);
 }
-.section-image.training{
-    background-image: url(../img/ux.jpg);
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.section-image.components{
-    background-image: url(../img/components-2.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--purple);
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.section-image.characteristics{
-    background-image: url(../img/characteristics2.jpeg);
-    width:100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--white);
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.section-image.method{
-  background-image: url(../img/method.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--purple);
-  width:100%;
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-.section-image.evaluation{
-    background-image: url(../img/components.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--purple);
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.section-image.govlab{
-    background-image: url(../img/govlab.jpeg);
-    width:100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--white);
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 .section-image.materials{
     background-image: url(../img/materials.jpeg);
     width:100%;
@@ -886,6 +834,12 @@ color: white;
     font-weight: 600;
 }
 @media screen and (min-width: 320px) and (max-width: 578px){
+  .section-box .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
     .section-box{
         display:flex;
         flex-direction: column;

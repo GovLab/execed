@@ -588,7 +588,7 @@ margin:0;
     margin: 1rem 0;
   }
   .eval-text .component-part{
-    width: 100%;
+    width: 90%;
     margin: 2rem 4rem;
    }
   .character-ie .component-part{
@@ -602,6 +602,7 @@ height: 15vh;
   .eval-text{
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
   }
   .character-body{
     display:flex;
@@ -633,7 +634,7 @@ height: 15vh;
     height: 150px;
   }
   .eval-text .component-part{
-    padding:0;
+    padding:0 1rem;
     margin: 0;
    }
   .character-3-title{
@@ -746,6 +747,22 @@ color: white;
     justify-content: flex-end;
     align-items: center;
 }
+.section-image.skills{
+  background-image: url(../img/skills.jpg);
+  width:40%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.section-image.training{
+  background-image: url(../img/ux.jpg);
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .training-section{
     padding: 1rem 2rem;
@@ -847,6 +864,7 @@ color: white;
         padding: 0rem;
 
     }
+ 
     .section-image.course{
         display:none;
     }
